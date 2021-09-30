@@ -7,20 +7,44 @@
 body{
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
 }
 
 /*header*/
 header{
-  position: static;
+  width: 100%;
+  position: fixed;
   display: flex;
   justify-content: flex-end;
   background-color: black;
 }
 
 header span{
-  color: white;
   background-color: gray;
   padding: 6px 6px;
   border-radius: 5px;
   margin: 5px;
 }
+
+/*main*/
+main{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.cella{
+  display: flex;
+  align-items: flex-end;
+  width: 225px;
+  height: 150px;
+  background-image: url(https://placekitten.com/250/150);
+  margin: 2px;
+}
+
+.mic{
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
