@@ -54,28 +54,35 @@ main{
 
 /*footer*/
 footer{
-  padding: 0 10px;
+  padding-left:10px;
   height: 10vh;
   background-color: #222222;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-radius: 0 10px;
 }
 
-.box-left, .box-right{
-  width: 15%;
-  background-color: blueviolet;
+.box-left, .box-mid, .box-right{
   display: flex;
   align-items: center;
   text-align: center;
 }
 
+.box-left{
+  width: 15%;
+}
+
 .box-mid{
   width: 45%;
-  background-color: cadetblue;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+}
+
+.box-right{
+  padding: 10px 10px;
+  height: 100%;
+  background-color: #4a4a4a;
+  color: red;
+  border-bottom-right-radius: 10px;
 }
 
 .size{
@@ -93,4 +100,3 @@ footer div{
 #green{
   color: green;
 }
-
